@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Add styles for the pricing section */
+        #pricing {
+            background-image: url('images/bean.png');
+            background-size: cover;
+            background-color: #65451F;
+            color: #C8AE7D;
+            padding: 60px 0;
+        }
+
+        #pricing h2 {
+            font-size: 36px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        #pricing p {
+            font-size: 18px;
+            margin-bottom: 40px;
+            text-align: center;
+        }
+
+        .card-deck {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            background-color: rgba(255, 255, 255, 0.8);
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+            margin: 10px 0; /* Fixed the margin here */
+            flex-basis: calc(33.33% - 20px);
+            padding: 20px;
+        }
+
+        .card h3 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .card h2 {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        .card p {
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+
+<section id="pricing">
+    <h2>Our Menu</h2>
+    <p>Explore our delicious coffee and treats.</p>
+    <div class="card-deck">
+        <div class="card">
+            <div class="card-header">
+                <h3>Latte</h3>
+            </div>
+            <div class="card-body">
+                <h2>Steamed milk with a shot of espresso and foam.</h2>
+                <p>₱150</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header">
+                <h3>Espresso</h3>
+            </div>
+            <div class="card-body">
+                <h2>Single or double shot, made from freshly ground beans.</h2>
+                <p>₱200</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header">
+                <h3>Cappuccino</h3>
+            </div>
+            <div class="card-body">
+                <h2>Equal parts espresso, steamed milk, and foam.</h2>
+                <p>₱250</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+</body>
+</html>
